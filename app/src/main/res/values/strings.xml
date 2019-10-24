@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentoIntent</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintApellido">Apellido</string>
+    <string name="btnejercicio1">Ejercicio1</string>
+    <string name="refbuttonejercicio2">Ejercicio2</string>
+    <string name="refertituloejercicio3">Ejercicio3</string>
+    <string name="refertitulox2">X2</string>
+    <string name="refertitulox1">X1</string>
+</resources>

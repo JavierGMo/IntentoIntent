@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="@string/hintNombre"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="76dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/hintApellido"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNombre" />
+
+        <Button
+            android:id="@+id/buttonEjercicio1"
+            android:layout_width="218dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/btnejercicio1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextApellido" />
+
+        <EditText
+            android:id="@+id/editTextA"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEjercicio1"
+            android:textSize="30dp"
+            android:hint="A"
+            />
+
+        <EditText
+            android:id="@+id/editTextB"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintStart_toEndOf="@+id/editTextA"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEjercicio1"
+            android:textSize="30dp"
+            android:hint="B"
+            />
+
+        <EditText
+            android:id="@+id/editTextC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="68dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintStart_toEndOf="@+id/editTextB"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEjercicio1"
+            android:textSize="30dp"
+            android:hint="C"
+             />
+
+        <Button
+            android:id="@+id/buttonEjercicio2"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/refbuttonejercicio2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextB" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
